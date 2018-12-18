@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Experience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    function setStyleSheet(url){
+        var stylesheet = document.getElementById("stylesheet");
+        stylesheet.setAttribute('href', url);
+    }
+    </script>
+
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" 
+                data-toggle="collapse" data-target="#navbar-collapse-main">
+                    <span class="sr-only">Navigation Toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <button type="button" class="navbar-left" 
+                onclick="setStyleSheet('style.css')" href="#">
+                    Dark Theme
+                </button>
+                
+                <button type="button" class="navbar-left" 
+                onclick="setStyleSheet('experienceStyle.css')" href="#">
+                    Light Theme
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Welcome</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="active" href="experience.html">Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                        <h2>Experience</h2>
+                        <h3>SpotMeSolutions</h3>
+                        <h4>Front-End Developer Intern</h4>
+                        <p class="lead"> Developed a mobile application for SpotMeSolutions as a Front-End Developer! <br/> <br/>
+                                The SpotMe Solutions Application is a mobile application that helps it's users find accessible parking in garages! 
+                                Stemming from the issue of finding parking around downtown San Jose, 
+                                SpotMe Solutions has developed a way to make finding more efficient and save people time in doing so! 
+                            <html>
+                            <head>
+                                <meta charset="utf-8" />
+                                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                <title>Page Title</title>
+                                <meta name="viewport" content="width=device-width, initial-scale=1">
+                                <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+                                <script src="main.js"></script>
+                            </head>
+                            <body>
+                                
+                            </body>
+                            </html>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fixed">
+        <div>
+        </div>
+    </div>
+
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6">
+                        <h4>Front End Team</h4>
+                        <br/>
+                        <p> I had an amazing time working with the SpotMeSolutions Team
+                            during the Fall of 2018! <br/> <br/> We successfully built a 
+                            working version of the application after 4 monthes of work.
+                            This is a big accomplishment, as many of us had 
+                            little to no prior experience working with JavaScript; much less, React
+                            and redux! <br/> <br/> Through working on the team, I learned a lot
+                            about what I'm capable of! I developed and improved my skillset, learning
+                            new things along the way as well as refining my understanding of stuff I had 
+                            already known. <br/> <br/>With that being said, the project was 
+                            by no means easy to complete. The biggest challenge that the team faced was merging code and
+                            communication. Both problems intertwined with one another as different team members
+                            would be working on different things and not communicating that with the others. This resulted
+                            in the team stressing out and using time inefficiently. However, the problem was resolved
+                            as the guidelines for the project our team was building became more and more clear!
+                            <br/> <br/> Although coding the project was challenging and working with team members 
+                            was the best, it was worth it. Through working with the SpotMeSolutions team I learned lots 
+                            of new things and have grown a fondness for UI/UX design through the process! <br/> <br/>
+                        </p>
+                        
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="img/spotme1.jpg" class="img-responsive">
+                    <br/>
+                    <img src="img/spotme2.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center">
+        <div class="row">
+            <h2>SpotMeSolutions LLC</h2>
+            <h3>Follow & Connect</h3>
+            <div class="col-sm-12">
+                <a href="https://www.instagram.com/spotmesolutions/?hl=en" class="fa fa-instagram"></a>
+                <a href="https://www.spotmesolutions.com/" class="fa fa-window-maximize"></a>
+                <a href="https://www.linkedin.com/company/spotmesolutions/" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

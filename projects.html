@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <script>
+    function setStyleSheet(url){
+        var stylesheet = document.getElementById("stylesheet");
+        stylesheet.setAttribute('href', url);
+    }
+    </script>
+
+    <link id="stylesheet" rel="stylesheet" type="text/css" href="style.css"/>
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" 
+                data-toggle="collapse" data-target="#navbar-collapse-main">
+                    <span class="sr-only">Navigation Toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <button type="button" class="navbar-left" 
+                onclick="setStyleSheet('style.css')" href="#">
+                    Dark Theme
+                </button>
+
+                <button type="button" class="navbar-left" 
+                onclick="setStyleSheet('experienceStyle.css')" href="#">
+                    Light Theme
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-main">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Welcome</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a class="active" href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                        <h2>Projects</h2>
+                        <p class="lead"> <br/> Shown below are projects I have worked on and completed! <br/> I will continue to add 
+                            more projects over time.
+                            <html>
+                            <head>
+                                <meta charset="utf-8" />
+                                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                                <title>Page Title</title>
+                                <meta name="viewport" content="width=device-width, initial-scale=1">
+                                <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+                                <script src="main.js"></script>
+                            </head>
+                            <body>
+                                
+                            </body>
+                            </html>
+                        </p>
+                </div>
+                
+            </div>
+            <div class="container">
+
+                <div class="about">
+                    <div class="row">
+
+                        <div class="col-md-4 crl1 about_grid">
+                            <h4>Sudoku Game</h4>
+                            
+                            <!-- <button
+                                type="button"
+                                class="more-bttn"
+                                data-toggle="modal"
+                                data-target="#exampleModal"
+                            >    More Details
+                            </button> -->
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/Sashanity/sjsu-CS-151" class="fa fa-github"></a>
+                        </div>
+
+                        <div class="col-md-4 crl2 about_grid">
+                            <h4>Captcha Generator</h4>
+                            <!-- <button
+                                type="button"
+                                class="more-bttn"
+                                data-toggle="modal"
+                                data-target="#exampleModal"
+                            >    More Details
+                            </button> -->
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/jeffersonly/Captcha-Generator" class="fa fa-github"></a>
+                        </div>
+
+                    <div class="col-md-4 crl3 about_grid">
+                            <h4>Company DBMS</h4>
+                            
+                            <!-- <button
+                                type="button"
+                                class="more-bttn"
+                                data-toggle="modal"
+                                data-target="#exampleModal"
+                            >    More Details
+                            </button> -->
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/jeffersonly/Company-DBMS-Application" class="fa fa-github"></a>
+                        </div>
+
+                        <div class="col-md-4 crl4 about_grid">
+                            <h4>Word Checker</h4>
+                            
+                            <!-- <button
+                                type="button"
+                                class="more-bttn"
+                                data-toggle="modal"
+                                data-target="#exampleModal"
+                            >    More Details
+                            </button> -->
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/jeffersonly/Spell-Checker" class="fa fa-github"></a>
+                        </div>
+
+                        <div class="col-md-4 crl5 about_grid">
+                            <h4>SpotMeSolutions App</h4>
+                            
+                            <!-- <button
+                                type="button"
+                                class="more-bttn"
+                                data-toggle="modal"
+                                data-target="#exampleModal"
+                            >    More Details
+                            </button> -->
+                            <br/>
+                            <br/>
+                            <a href="https://play.google.com/store/apps/details?id=com.spotmellc.spotmesolutions&hl=en" class="fa fa-automobile"></a>
+                        </div>
+
+                        <div class="col-md-4 crl6 about_grid">
+                            <h4>Scheduler Application</h4>
+                            
+                            <!--<button
+                                type="button"
+                                class="more-bttn"
+                                data-toggle="modal"
+                                data-target="#exampleModal"
+                            >    More Details
+                            </button> -->
+                            <br/>
+                            <br/>
+                            <a href="https://github.com/jeffersonly/FreeGapApp" class="fa fa-github"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- <div id="fixed">
+        <div>
+
+        </div>
+    </div>-->
+
+</body>
+</html>

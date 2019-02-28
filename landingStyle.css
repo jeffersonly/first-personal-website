@@ -5,7 +5,7 @@ html, body {
     text-align: center;
     color: white;
     text-shadow: 5px 6px 11px rgba(162,161,164,0.7);
-    background: url(img/backdrop.jpg) repeat center center fixed;
+    background: url(img/backdrop.jpg) center center fixed;
 }
 .particles-js {
     display: table;
@@ -14,8 +14,6 @@ html, body {
     position: relative;
     z-index: -1;
     background-size: cover;
-    background-color: black;
-    background-image: url(img/backdrop.jpg) cover;
 }
 .bg-text{
     display: inline;
@@ -58,7 +56,6 @@ html, body {
     color: white;
     text-decoration: none;
 }
-
 @media (max-width: 768px) {
     .bg-text h1 {
         font-size: 8vh;

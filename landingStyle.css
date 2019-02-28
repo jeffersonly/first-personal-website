@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 5px 6px 11px rgba(162,161,164,0.7);
+    background: url(img/backdrop.jpg) repeat center center fixed;
+}
+.particles-js {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    background-size: cover;
+    background-color: black;
+    background-image: url(img/backdrop.jpg) cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.bg-text{
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    vertical-align: center;
+    margin: 0 auto;
+    transform: translate(50%, 50%);
+}
+.bg-text h1 {
+    font-size: 800%;
+}
+.bg-text h3 {
+    font-size: 250%;
+}
+.bg-text h4 {
+    font-size: 150%;
+}
+.bg-text button {
+    background-color: rgba(162,161,164,0.7);
+    border: thin solid;
+    border-color: white;
+    color: white;
+    size: 200%;
+    padding: 12px 28px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+.bg-text button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: 0.35s;
+    box-shadow: 0 1px 30px white;
+}
+.bg-text button a {
+    color: white;
+    text-decoration: none;
+}

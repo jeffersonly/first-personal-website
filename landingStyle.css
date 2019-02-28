@@ -5,7 +5,7 @@ html, body {
     text-align: center;
     color: white;
     text-shadow: 5px 6px 11px rgba(162,161,164,0.7);
-    background: url(img/backdrop.jpg) center center fixed;
+    background: url(img/stars.png) repeat center center fixed;
 }
 .particles-js {
     display: table;

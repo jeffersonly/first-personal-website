@@ -16,24 +16,26 @@ html, body {
     background-size: cover;
     background-color: black;
     background-image: url(img/backdrop.jpg) cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
 }
 .bg-text{
-    display: inline-block;
+    display: inline;
     position: absolute;
     text-align: center;
     vertical-align: center;
     margin: 0 auto;
-    transform: translate(50%, 50%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .bg-text h1 {
-    font-size: 800%;
+    font-size: 700%;
 }
 .bg-text h3 {
-    font-size: 250%;
+    padding: 10px;
+    font-size: 300%;
 }
 .bg-text h4 {
+    padding: 10px;
     font-size: 150%;
 }
 .bg-text button {
@@ -41,7 +43,7 @@ html, body {
     border: thin solid;
     border-color: white;
     color: white;
-    size: 200%;
+    size: 100%;
     padding: 12px 28px;
     font-size: 1.2em;
     font-weight: bold;
@@ -55,4 +57,26 @@ html, body {
 .bg-text button a {
     color: white;
     text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .bg-text h1 {
+        font-size: 8vh;
+    }
+    .bg-text h3 {
+        font-size: 5vh;
+    }
+    .bg-text h4 {
+        font-size: 3vh;
+    }
+    .bg-text{
+        display: inline-block;
+        position: absolute;
+        text-align: center;
+        vertical-align: center;
+        margin: 0 auto;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }

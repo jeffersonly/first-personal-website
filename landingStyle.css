@@ -4,6 +4,9 @@ html, body {
     margin: 0;
     text-align: center;
     color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-family: fantasy; */
     text-shadow: 5px 6px 11px rgba(162,161,164,0.7);
     background: url(img/stars.png) repeat center center fixed;
 }
@@ -26,7 +29,7 @@ html, body {
     transform: translate(-50%, -50%);
 }
 .bg-text h1 {
-    font-size: 700%;
+    font-size: 600%;
 }
 .bg-text h3 {
     padding: 10px;
